@@ -3,7 +3,7 @@ const axios = require('axios');
 exports.generateImage = async (req, res, next) => {
   try {
     const { prompt } = req.body;
-    const apiKey = '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';
+    const apiKey = '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';
 
     // Set up the request headers with the Authorization header
     const headers = {
